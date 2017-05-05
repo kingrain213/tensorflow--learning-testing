@@ -29,7 +29,7 @@ def main(_):
 
     sess = tf.InteractiveSession()
     tf.global_variables_initializer().run()
-    total_accu = -9999
+    total_accu = 9999
 
     for i in range(1000):
         #每100个图像一个batch，进行训练
